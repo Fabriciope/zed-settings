@@ -1,11 +1,15 @@
 {
-  "cursor_blink": false,
   "vim_mode": true,
+
+  // NOTE: font
+  "cursor_blink": false,
   "relative_line_numbers": true,
   "buffer_font_family": "JetBrainsMono Nerd Font Mono",
   "ui_font_size": 15,
   "buffer_font_size": 12,
-  "format_on_save": "on",
+
+  "format_on_save": "off",
+
   "project_panel": {
     "dock": "right",
     "indent_size": 14,

@@ -9,7 +9,14 @@
   {
     "context": "Workspace",
     "bindings": {
-      "alt-/": "terminal_panel::ToggleFocus"
+      "alt-/": "terminal_panel::ToggleFocus",
+      "alt-n": "project_panel::ToggleFocus"
+    }
+  },
+  {
+    "context": "ProjectPanel",
+    "bindings": {
+      "alt-n": "workspace::ToggleRightDock"
     }
   },
   {
@@ -20,6 +27,7 @@
     "context": "Terminal",
     "bindings": {
       "alt-/": "workspace::ToggleBottomDock",
+      "ctrl-n": "workspace::NewTerminal",
 
       "ctrl-w ctrl-h": "workspace::ActivatePaneLeft",
       "ctrl-w ctrl-l": "workspace::ActivatePaneRight",
