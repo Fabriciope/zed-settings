@@ -10,7 +10,9 @@
     "context": "Workspace",
     "bindings": {
       "alt-/": "terminal_panel::ToggleFocus",
-      "alt-n": "project_panel::ToggleFocus"
+      "alt-n": "project_panel::ToggleFocus",
+      "alt-h": "pane::ActivatePreviousItem",
+      "alt-l": "pane::ActivateNextItem"
     }
   },
   {
