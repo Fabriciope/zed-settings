@@ -31,10 +31,22 @@
     }
   },
 
+  "tab_bar": {
+    "show": true,
+    "show_tab_bar_buttons": false,
+    "show_nav_history_buttons": false
+  },
+
+  "tabs": {
+    "file_icons": true,
+    "show_diagnostics": "all",
+    "git_status": true
+  },
+
   "theme": {
     "mode": "system",
-    "light": "Kanso Pearl (Blurred)",
-    "dark": "Kanso Zen (Blurred)"
+    "light": "Kanso Pearl",
+    "dark": "Kanso Zen (No italics)"
   },
   "icon_theme": "JetBrains Icons Dark"
 }
