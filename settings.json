@@ -10,6 +10,19 @@
 
   "format_on_save": "off",
 
+  "diagnostics": {
+    "button": true,
+    "include_warnings": true,
+    "inline": {
+      "enabled": true,
+      "update_debounce_ms": 150,
+      "padding": 3,
+      "min_column": 0,
+      "max_severity": null
+    },
+    "cargo": null
+  },
+
   "project_panel": {
     "dock": "right",
     "indent_size": 14,
@@ -46,7 +59,7 @@
   "theme": {
     "mode": "system",
     "light": "Kanso Pearl",
-    "dark": "Kanso Zen (No italics)"
+    "dark": "Rosé Pine"
   },
   "icon_theme": "JetBrains Icons Dark"
 }
