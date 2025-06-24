@@ -24,6 +24,7 @@
   },
 
   "project_panel": {
+    "auto_fold_dirs": false,
     "dock": "right",
     "indent_size": 14,
     "entry_spacing": "standard",
